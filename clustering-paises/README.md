@@ -1,25 +1,23 @@
 # Clusterização de países
 
-## Overview
-Esse projeto tem como objetivo utilizar técnicas não supervisionadas para clusterizar países com características socioeconômicas semelhantes. No contexto mundial, é de extrema importância a valorização de diferentes parâmetros em termos de qualidade de vida da população.
+## Resumo
+Esse projeto tem como objetivo utilizar técnicas não supervisionadas para clusterizar países com características socioeconômicas semelhantes. No contexto mundial, é de extrema importância a valorização de diferentes parâmetros em termos de qualidade de vida da população. Os indicadores selecionados abrangem dimensões econômicas, sociais, educacionais, demográficas e ambientais, permitindo uma caracterização multidimensional dos países e subsidiando a análise de agrupamentos.
 
-## Objectives
-- To analyze datasets containing country-level statistics.
-- To apply clustering algorithms to categorize countries.
-- To visualize the results for better interpretation.
+## Dados e metodologia
+Os dados foram coletados da API do World Bank, sendo considerada, para cada país, a média dos últimos 5 anos de cada indicador.
 
-## Data Sources
-The project utilizes data from international organizations such as:
-- World Bank
-- United Nations
-- International Monetary Fund (IMF)
+Os parâmetros coletados para a análise foram:
+- PIB per capita: expressa o nível médio de renda e o grau de desenvolvimento econômico;
+- Taxa de crescimento do PIB: indica o ritmo de expansão da economia;
+- Taxa de desemprego: reflete as condições do mercado de trabalho e possíveis fragilidades econômicas.;
+- Taxa de matrícula no ensino secundário: representa o acesso à educação e o nível de formação do capital humano;
+- Expectativa de vida ao nascer e Mortalidade infantil: utilizados como indicadores das condições sanitárias e do acesso a serviços de saúde;
+- Índice de Gini: grau de desigualdade de renda;
+- Percentual de população urbana: reflete o nível de urbanização e organização socioeconômica dos países;
+- Participação da indústria no PIB: indica o grau de industrialização da economia,;
+- Emissões de CO₂ per capita: incorporam a dimensão ambiental, relacionando atividade econômica, matriz energética e impacto ambiental
 
-## Methodology
-1. Data Collection: Gather relevant datasets from various sources.
-2. Data Preprocessing: Clean and preprocess data to make it suitable for analysis.
-3. Clustering Techniques: Apply various clustering algorithms such as K-Means, Hierarchical Clustering, etc.
-4. Evaluation: Use metrics to evaluate the effectiveness of the clustering.
-5. Visualization: Create visual representations of the clusters.
+## Metodologia
 
-## Conclusion
-This project aims to provide insights into how countries can be grouped based on clustered data, potentially revealing hidden correlations and trends that would not be apparent from isolated data points.
+## Resultados e conclusões
+
