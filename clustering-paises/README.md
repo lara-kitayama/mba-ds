@@ -1,7 +1,7 @@
-# Countries Clustering Project
+# Clusterização de países
 
 ## Overview
-This project focuses on clustering countries based on various economic, geographical, and social parameters. The goal is to identify patterns and group countries that exhibit similar characteristics, thereby providing insights into global trends and helping in decision-making processes.
+Esse projeto tem como objetivo utilizar técnicas não supervisionadas para clusterizar países com características socioeconômicas semelhantes. No contexto mundial, é de extrema importância a valorização de diferentes parâmetros em termos de qualidade de vida da população.
 
 ## Objectives
 - To analyze datasets containing country-level statistics.
